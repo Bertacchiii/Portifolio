@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU CABEÇALHO -->
+    <section class="container__header">
+        <header>
+            <div class="logo">
+                <a href="#home">Rodrigo</a>
+            </div>
+            <nav id="nav" >
+                <ul>
+                    <li><a href="#home" onclick="selecionar()">HOME</a></li>
+                    <li><a href="#sobremim" onclick="selecionar()">SOBRE MIM</a></li>
+                    <li><a href="#portifolio" onclick="selecionar()">PORTIFOLIO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>    
+        </header>
+    </section>
+
+    <!-- HOME -->
+    <section id="home" class="home">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="img/Rodrigo.png" alt="">
+            </div>
+            <h1>Rodrigo Bertacchi</h1>
+            <h2>Desenvolvedor de Software</h2>
+            <div class="redes">
+                <a href="https://github.com/Bertacchiii"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rodrigo-bertacchi-palomino-6504b2198/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/bertacchiii/"><i class="fa-brands fa-instagram"></i></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="sobremim" class="sobremim">
+        <div class="container-section">
+            <h2>Sobre mim</h2>
+            <p><span>Oi, meu nome é Rodrigo Bertacchi Palomino.</span> Tenho 21 anos, possuo uma grande força de vontade pra superar desafios e adquirir mais conhecimento para resolve-los. Nas empresas no qual trabalhei sempre fui elogiado devido ao meu esforço e entrega de meus trabalhos sempre no prazo e o mais perfeito possível.</p>
+            <div class="lista">
+                <!-- dados pessoais -->
+                <div class="col">
+                    <h3>Dados Pessoais</h3>
+                    <ul>
+                        <li>
+                            <strong>Nascimento</strong>
+                            21-01-2002
+                        </li>
+                        <li>
+                            <strong>Telefone</strong>
+                            11-952899640
+                        </li>
+                        <li>
+                            <strong>E-mail</strong>
+                            rodrigopalomino00@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <!-- tecnologias -->
+                <div class="col">
+                    <h3>Tecnologias</h3>
+                    <div class="conteiner-tecnologias">
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-js"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-solid fa-code"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-brands fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-solid fa-r"></i>
+                            <span>Rscript</span>
+                        </div>
+                        <div class="tecnologias">
+                            <i class="fa-solid fa-cloud"></i>
+                            <span>Azure</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button><a href="https://drive.google.com/file/d/1h5ZN5ZQc8blinrxqPS_2FhoecFMKQFKh/view?usp=share_link">
+                Download CV <i class="fa-solid fa-download"></i></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- PORTIFOLIO -->
+    <section id="portifolio" class="portifolio">
+        <div class="container-section">
+            <h2>PORTIFOLIO</h2>
+            <div class="galeria">
+                <div class="projetos">
+                    <img src="img/Em breve.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Em construção</h3>
+                        <p>Linguagem</p>
+                    </div>
+                </div>
+                <div class="projetos">
+                    <img src="img/Em breve.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Em construção</h3>
+                        <p>Linguagem</p>
+                    </div>
+                </div>
+                <div class="projetos">
+                    <img src="img/Em breve.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Em construção</h3>
+                        <p>Linguagem</p>
+                    </div>
+                </div>
+                <div class="projetos">
+                    <img src="img/Em breve.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Em construção</h3>
+                        <p>Linguagem</p>
+                    </div>
+                </div>
+                <div class="projetos">
+                    <img src="img/Em breve.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Em construção</h3>
+                        <p>Linguagem</p>
+                    </div>
+                </div>
+                <div class="projetos">
+                    <img src="img/Em breve.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Em construção</h3>
+                        <p>Linguagem</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+
+/* SOBRE MIM */
+
+.sobremim{
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+    padding: 50px 20px;
+}
+
+.sobremim .container-section{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sobremim h2{
+    font-size: 48px;
+    font-family: var(--fonte-secundaria);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobremim .container-section p{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.sobremim .container-section p span{
+    color: var(--cor-secundaria);
+    font-weight: bold;
+}
+
+.sobremim .lista{
+    display: flex;
+}
+
+.sobremim .lista .col{
+    width: 50%;
+}
+
+.sobremim .lista .col h3{
+    font-size: 28px;
+    font-family: var(--fonte-secundaria);
+    margin-bottom: 25px;
+}
+
+.sobremim .lista .col ul{
+    list-style: none;
+}
+
+.sobremim .lista .col ul li{
+    margin: 12px 0;
+}
+
+.sobremim .lista .col ul li strong{
+    display: inline-block;
+    color: var(--cor-secundaria);
+    width: 130px;
+}
+
+
+.sobremim .lista .col .conteiner-tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobremim .lista .col .conteiner-tecnologias .tecnologias{
+    width: 100px;
+    height: 100px;
+    background-color: var(--cor-quartenaria);
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.sobremim .lista .col .conteiner-tecnologias .tecnologias:hover{
+    background-color: var(--cor-secundaria);
+}
+
+.sobremim .lista .col .conteiner-tecnologias .tecnologias i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sobremim button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid var(--cor-terciaria);
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: var(--cor-terciaria);
+    position: relative;
+    z-index: 10;
+}
+
+.sobremim button a{
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.sobremim button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--cor-secundaria);
+    z-index: -1;
+    transition: 1s;
+}
+
+.sobremim button:hover .overlay{
+    width: 100%;
+}
